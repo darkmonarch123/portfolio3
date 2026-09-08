@@ -26,33 +26,33 @@ export const WORK = {
       id: "prodesign-africa",
       name: "ProDesign Africa",
       domain: "github.com/darkmonarch123/ProdesignAfrica",
-      href: "https://github.com/darkmonarch123/ProdesignAfrica",
+      href: "https://prodesignafrica.vercel.app/",
       featured: true,
       description:
         "A 3D architecture builder for African professionals — CAD tooling built around Nigerian plot standards, ARCON/LASDRI compliance and local material costs, from Lagos to Nairobi.",
       role: "Full stack — the 3D web builder, the compliance-aware plan editor, and the services behind it.",
-      stack: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
+      stack: ["React", "Spring-boot","PostgreSQL", "TypeScript", "Tailwind CSS", "Node.js","Docker","Zustand,"],
       screenshot: {
         src: prodesignShot,
         alt: "Dark hero for Prodesign Africa reading 'Design buildings that belong in Africa', beside a floor-plan editor panel labelled Lekki Duplex.",
       },
-      linkLabel: "View on GitHub",
+      linkLabel: "View live demo",
     },
     {
       id: "pinnacle-inc",
       name: "Pinnacle Inc",
       domain: "github.com/darkmonarch123/PinnacleCorp",
-      href: "https://github.com/darkmonarch123/PinnacleCorp",
+      href: "https://pinnacle-corp.vercel.app/",
       featured: false,
       description:
         "A paper-trading platform for African investors — real market data, a full order desk, and a $10,000 virtual balance to practice on ETFs, stocks and Nasdaq names risk-free.",
       role: "Full stack — trading interface, portfolio equity chart, and the order desk behind it.",
-      stack: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL"],
+      stack: ["React", "Spring-boot","Java", "TypeScript", "Node.js", "PostgreSQL", "Docker", "Tailwind CSS", "Chart.js","TwelveData","Clerk"],
       screenshot: {
         src: pinnacleShot,
         alt: "Pinnacle homepage headlined 'Elevate Your Wealth', with a portfolio equity chart card showing simulated gains and buying power.",
       },
-      linkLabel: "View on GitHub",
+      linkLabel: "View live demo",
     },
     // {
     //   id: "nairax-signal-pro",
@@ -90,7 +90,7 @@ export const WORK = {
       id: "uniccreations",
       name: "UNICCREATIONS",
       domain: "github.com/darkmonarch123/uniccreations-style-hub",
-      href: "https://github.com/darkmonarch123/uniccreations-style-hub",
+      href: "https://uniccreations-style-hub.vercel.app/",
       featured: false,
       description:
         "A responsive, high-fidelity e-commerce storefront for a Lagos-made women's fashion brand — clean product cards, a full shop and custom-order flow, and a premium minimalist aesthetic across every page.",
@@ -100,7 +100,7 @@ export const WORK = {
         src: uniccreationsShot,
         alt: "UNIC Creations homepage reading 'Be You. Be UNIC.' beside a model in a dark green two-piece crepe set.",
       },
-      linkLabel: "View on GitHub",
+      linkLabel: "View live demo",
     },
     // {
     //   id: "f1-telemetry",

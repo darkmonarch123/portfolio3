@@ -7,12 +7,12 @@ export const SITE = {
   // line wraps.
   jobTitle: "Software Engineer",
   url: "https://temiloluwa.dev",
-  title: "Temiloluwa Oluwanifemi — Software Engineer in Lagos, Nigeria",
-  titleTemplate: "%s | Temiloluwa Oluwanifemi",
+  title: "Temiloluwa Emmanuel Oluwanifemi — Software Engineer in Lagos, Nigeria",
+  titleTemplate: "%s | Temiloluwa Emmanuel Oluwanifemi",
   description:
     "Software engineer in Lagos, Nigeria, writing clean full-stack code and building practical AI, fintech and e-commerce products across web, mobile and blockchain.",
   keywords: [
-    "Temiloluwa Oluwanifemi",
+    "Temiloluwa Emmanuel Oluwanifemi",
     "Software Engineer",
     "Full Stack Developer",
     "AI Engineer",
@@ -24,11 +24,11 @@ export const SITE = {
     "Web Developer Lagos",
     "Nigerian Software Engineer",
   ],
-  ogTitle: "Temiloluwa Oluwanifemi — I build practical software end to end.",
+  ogTitle: "Temiloluwa Emmanuel Oluwanifemi — I build practical software end to end.",
   ogDescription:
     "Software engineer in Lagos, Nigeria. Full-stack web, AI tools, fintech and blockchain products, from idea to shipped product.",
-  ogImageAlt: "Temiloluwa Oluwanifemi, software engineer — Lagos, Nigeria",
-  twitterTitle: "Temiloluwa Oluwanifemi — I build practical software end to end.",
+  ogImageAlt: "Temiloluwa Emmanuel Oluwanifemi, software engineer — Lagos, Nigeria",
+  twitterTitle: "Temiloluwa Emmanuel Oluwanifemi — I build practical software end to end.",
   twitterDescription:
     "Software engineer in Lagos, Nigeria. Full-stack web, AI tools, fintech and blockchain products.",
   twitterHandle: "@iam_temiloluwa7",
