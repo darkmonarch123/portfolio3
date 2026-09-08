@@ -54,38 +54,38 @@ export const WORK = {
       },
       linkLabel: "View on GitHub",
     },
-    {
-      id: "nairax-signal-pro",
-      name: "NairaX Signal Pro",
-      domain: "github.com/darkmonarch123",
-      href: "https://github.com/darkmonarch123",
-      featured: false,
-      description:
-        "A memecoin signal bot with a Telegram bot and web dashboard, monitoring Solana, BSC and Ethereum around the clock. Scans 340+ new coins an hour, scores each one across 7 signals, and alerts Nigerian users once a coin scores 70+ — free users get delayed alerts, premium subscribers get real-time unlimited alerts.",
-      role: "Full stack — the scoring engine, the Telegram bot, and the web dashboard.",
-      stack: ["Node.js", "TypeScript", "React", "PostgreSQL", "Docker"],
-      screenshot: {
-        src: nairaxShot,
-        alt: "Placeholder screenshot for the NairaX Signal Pro memecoin bot dashboard.",
-      },
-      linkLabel: "View on GitHub",
-    },
-    {
-      id: "newhope-hospital",
-      name: "NewHope Hospital System",
-      domain: "github.com/darkmonarch123",
-      href: "https://github.com/darkmonarch123",
-      featured: false,
-      description:
-        "A hospital management system that helps patients track appointments, cuts down paper trails, and makes ward sorting easier for staff.",
-      role: "Full stack — appointment tracking, records, and ward-sorting workflows.",
-      stack: ["React", "Node.js", "Express", "MongoDB"],
-      screenshot: {
-        src: newhopeShot,
-        alt: "Placeholder screenshot for the NewHope hospital management system.",
-      },
-      linkLabel: "View on GitHub",
-    },
+    // {
+    //   id: "nairax-signal-pro",
+    //   name: "NairaX Signal Pro",
+    //   domain: "github.com/darkmonarch123",
+    //   href: "https://github.com/darkmonarch123",
+    //   featured: false,
+    //   description:
+    //     "A memecoin signal bot with a Telegram bot and web dashboard, monitoring Solana, BSC and Ethereum around the clock. Scans 340+ new coins an hour, scores each one across 7 signals, and alerts Nigerian users once a coin scores 70+ — free users get delayed alerts, premium subscribers get real-time unlimited alerts.",
+    //   role: "Full stack — the scoring engine, the Telegram bot, and the web dashboard.",
+    //   stack: ["Node.js", "TypeScript", "React", "PostgreSQL", "Docker"],
+    //   screenshot: {
+    //     src: nairaxShot,
+    //     alt: "Placeholder screenshot for the NairaX Signal Pro memecoin bot dashboard.",
+    //   },
+    //   linkLabel: "View on GitHub",
+    // },
+    // {
+    //   id: "newhope-hospital",
+    //   name: "NewHope Hospital System",
+    //   domain: "github.com/darkmonarch123",
+    //   href: "https://github.com/darkmonarch123",
+    //   featured: false,
+    //   description:
+    //     "A hospital management system that helps patients track appointments, cuts down paper trails, and makes ward sorting easier for staff.",
+    //   role: "Full stack — appointment tracking, records, and ward-sorting workflows.",
+    //   stack: ["React", "Node.js", "Express", "MongoDB"],
+    //   screenshot: {
+    //     src: newhopeShot,
+    //     alt: "Placeholder screenshot for the NewHope hospital management system.",
+    //   },
+    //   linkLabel: "View on GitHub",
+    // },
     {
       id: "uniccreations",
       name: "UNICCREATIONS",
@@ -102,21 +102,21 @@ export const WORK = {
       },
       linkLabel: "View on GitHub",
     },
-    {
-      id: "f1-telemetry",
-      name: "F1 Telemetry",
-      domain: "github.com/darkmonarch123",
-      href: "https://github.com/darkmonarch123",
-      featured: false,
-      description:
-        "A Formula 1 telemetry web app for viewing live and historical race data.",
-      role: "Full stack — the telemetry dashboard and the data layer behind it.",
-      stack: ["React", "TypeScript", "Node.js"],
-      screenshot: {
-        src: f1Shot,
-        alt: "Placeholder screenshot for the F1 Telemetry dashboard.",
-      },
-      linkLabel: "View on GitHub",
-    },
+    // {
+    //   id: "f1-telemetry",
+    //   name: "F1 Telemetry",
+    //   domain: "github.com/darkmonarch123",
+    //   href: "https://github.com/darkmonarch123",
+    //   featured: false,
+    //   description:
+    //     "A Formula 1 telemetry web app for viewing live and historical race data.",
+    //   role: "Full stack — the telemetry dashboard and the data layer behind it.",
+    //   stack: ["React", "TypeScript", "Node.js"],
+    //   screenshot: {
+    //     src: f1Shot,
+    //     alt: "Placeholder screenshot for the F1 Telemetry dashboard.",
+    //   },
+    //   linkLabel: "View on GitHub",
+    // },
   ],
 } as const satisfies WorkContent;
