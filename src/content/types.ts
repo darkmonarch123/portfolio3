@@ -178,7 +178,13 @@ export interface TrustBarContent {
   readonly marks: readonly TrustMark[];
 }
 
-export type CapabilityIconName = "bot" | "layers" | "pen-tool";
+export type CapabilityIconName =
+  | "bot"
+  | "layers"
+  | "server"
+  | "monitor"
+  | "cloud"
+  | "pen-tool";
 
 export interface Capability {
   readonly id: string;

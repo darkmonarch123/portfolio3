@@ -16,108 +16,87 @@ import type { WorkContent } from "./types";
 // src/assets/images/work/ for real screenshots when you have them.
 export const WORK = {
   header: {
-    id: "work",
-    eyebrow: "Work",
-    heading: "Things I've built.",
-    subhead:
-      "Self-directed projects across fintech, AI, healthcare and e-commerce.",
+  id: "work",
+  eyebrow: "Work",
+  heading: "Engineering projects.",
+  subhead:
+    "Self-directed software projects across AI, healthcare, and e-commerce—focused on building reliable, scalable systems.",
+},
+ projects: [
+  {
+    id: "prodesign-africa",
+    name: "ProDesign Africa",
+    domain: "github.com/darkmonarch123/ProdesignAfrica",
+    href: "https://prodesignafrica.vercel.app/",
+    featured: false,
+    description:
+      "A web-based 3D architecture and planning tool built for African construction professionals. It supports Nigerian plot standards, ARCON/LASDRI-aligned compliance checks, and localized material-cost estimates, helping users move from concept to buildable plans.",
+    role: "Full-stack engineer — built the 3D web builder, compliance-aware plan editor, and supporting backend services.",
+    stack: [
+      "React",
+      "TypeScript",
+      "Spring Boot",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "Tailwind CSS",
+      "Zustand",
+    ],
+    screenshot: {
+      src: prodesignShot,
+      alt: "Dark hero for ProDesign Africa reading 'Design buildings that belong in Africa', beside a floor-plan editor panel labelled Lekki Duplex.",
+    },
+    linkLabel: "View live demo",
   },
-  projects: [
-    {
-      id: "prodesign-africa",
-      name: "ProDesign Africa",
-      domain: "github.com/darkmonarch123/ProdesignAfrica",
-      href: "https://prodesignafrica.vercel.app/",
-      featured: false,
-      description:
-        "A 3D architecture builder for African professionals — CAD tooling built around Nigerian plot standards, ARCON/LASDRI compliance and local material costs, from Lagos to Nairobi.",
-      role: "Full stack — the 3D web builder, the compliance-aware plan editor, and the services behind it.",
-      stack: ["React", "Spring-boot","PostgreSQL", "TypeScript", "Tailwind CSS", "Node.js","Docker","Zustand,"],
-      screenshot: {
-        src: prodesignShot,
-        alt: "Dark hero for Prodesign Africa reading 'Design buildings that belong in Africa', beside a floor-plan editor panel labelled Lekki Duplex.",
-      },
-      linkLabel: "View live demo",
+  {
+    id: "pinnacle-inc",
+    name: "Pinnacle Inc",
+    domain: "github.com/darkmonarch123/PinnacleCorp",
+    href: "https://pinnacle-corp.vercel.app/",
+    featured: false,
+    description:
+      "A paper-trading platform that lets African investors practice trading ETFs, U.S. stocks, and Nasdaq-listed companies with a $10,000 virtual portfolio. It integrates real-time market data with order placement, position tracking, and portfolio performance visualization.",
+    role: "Full-stack engineer — designed the trading interface, portfolio equity chart, and order-management workflow.",
+    stack: [
+      "React",
+      "TypeScript",
+      "Java",
+      "Spring Boot",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "Tailwind CSS",
+      "Chart.js",
+      "Twelve Data",
+      "Clerk",
+    ],
+    screenshot: {
+      src: pinnacleShot,
+      alt: "Pinnacle homepage headlined 'Elevate Your Wealth', with a portfolio equity chart card showing simulated gains and buying power.",
     },
-    {
-      id: "pinnacle-inc",
-      name: "Pinnacle Inc",
-      domain: "github.com/darkmonarch123/PinnacleCorp",
-      href: "https://pinnacle-corp.vercel.app/",
-      featured: false,
-      description:
-        "A paper-trading platform for African investors — real market data, a full order desk, and a $10,000 virtual balance to practice on ETFs, stocks and Nasdaq names risk-free.",
-      role: "Full stack — trading interface, portfolio equity chart, and the order desk behind it.",
-      stack: ["React", "Spring-boot","Java", "TypeScript", "Node.js", "PostgreSQL", "Docker", "Tailwind CSS", "Chart.js","TwelveData","Clerk"],
-      screenshot: {
-        src: pinnacleShot,
-        alt: "Pinnacle homepage headlined 'Elevate Your Wealth', with a portfolio equity chart card showing simulated gains and buying power.",
-      },
-      linkLabel: "View live demo",
+    linkLabel: "View live demo",
+  },
+  {
+    id: "foreman",
+    name: "Foreman",
+    domain: "github.com/darkmonarch123/Foreman",
+    href: "https://foreman-xtor.onrender.com",
+    featured: true,
+    description:
+      "A real-time collaborative visual workspace for brainstorming, project planning, diagrams, and team coordination. Users can create boards from templates, add notes, shapes, arrows, and drawings, collaborate with role-based access, comment, follow activity, and export boards as PNG.",
+    role: "Full-stack engineer — built the collaborative workspace UI, real-time synchronization, and board-management logic.",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "WebSockets",
+    ],
+    screenshot: {
+      src: foremanShot,
+      alt: "Foreman homepage reading 'Collaborate in real-time', beside a visual workspace with sticky notes and drawings.",
     },
-    // {
-    //   id: "nairax-signal-pro",
-    //   name: "NairaX Signal Pro",
-    //   domain: "github.com/darkmonarch123",
-    //   href: "https://github.com/darkmonarch123",
-    //   featured: false,
-    //   description:
-    //     "A memecoin signal bot with a Telegram bot and web dashboard, monitoring Solana, BSC and Ethereum around the clock. Scans 340+ new coins an hour, scores each one across 7 signals, and alerts Nigerian users once a coin scores 70+ — free users get delayed alerts, premium subscribers get real-time unlimited alerts.",
-    //   role: "Full stack — the scoring engine, the Telegram bot, and the web dashboard.",
-    //   stack: ["Node.js", "TypeScript", "React", "PostgreSQL", "Docker"],
-    //   screenshot: {
-    //     src: nairaxShot,
-    //     alt: "Placeholder screenshot for the NairaX Signal Pro memecoin bot dashboard.",
-    //   },
-    //   linkLabel: "View on GitHub",
-    // },
-    // {
-    //   id: "newhope-hospital",
-    //   name: "NewHope Hospital System",
-    //   domain: "github.com/darkmonarch123",
-    //   href: "https://github.com/darkmonarch123",
-    //   featured: false,
-    //   description:
-    //     "A hospital management system that helps patients track appointments, cuts down paper trails, and makes ward sorting easier for staff.",
-    //   role: "Full stack — appointment tracking, records, and ward-sorting workflows.",
-    //   stack: ["React", "Node.js", "Express", "MongoDB"],
-    //   screenshot: {
-    //     src: newhopeShot,
-    //     alt: "Placeholder screenshot for the NewHope hospital management system.",
-    //   },
-    //   linkLabel: "View on GitHub",
-    // },
-    {
-      id: "foreman",
-      name: "Foreman",
-      domain: "github.com/darkmonarch123/Foreman",
-      href: "https://foreman-xtor.onrender.com",
-      featured: true,
-      description:
-        "Foreman is a real-time collaborative visual workspace for brainstorming, project planning, diagrams, notes and team coordination. People create boards, start from templates, add sticky notes, text, shapes, arrows and drawings, invite collaborators with roles, comment, follow an activity feed and export boards as PNG.",
-      role: "Front end and back end — the storefront UI and the store logic behind it.",
-      stack: ["Nextjs", "Tailwind CSS", "Supabase", "Websockets", "TypeScript",],
-      screenshot: {
-        src: foremanShot,
-        alt: "Foreman homepage reading 'Collaborate in real-time', beside a visual workspace with sticky notes and drawings.",
-      },
-      linkLabel: "View live demo",
-    },
-    // {
-    //   id: "f1-telemetry",
-    //   name: "F1 Telemetry",
-    //   domain: "github.com/darkmonarch123",
-    //   href: "https://github.com/darkmonarch123",
-    //   featured: false,
-    //   description:
-    //     "A Formula 1 telemetry web app for viewing live and historical race data.",
-    //   role: "Full stack — the telemetry dashboard and the data layer behind it.",
-    //   stack: ["React", "TypeScript", "Node.js"],
-    //   screenshot: {
-    //     src: f1Shot,
-    //     alt: "Placeholder screenshot for the F1 Telemetry dashboard.",
-    //   },
-    //   linkLabel: "View on GitHub",
-    // },
-  ],
+    linkLabel: "View live demo",
+  },
+],
 } as const satisfies WorkContent;

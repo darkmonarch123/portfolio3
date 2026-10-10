@@ -10,27 +10,29 @@ export const SITE = {
   title: "Temiloluwa Emmanuel Oluwanifemi — Software Engineer in Lagos, Nigeria",
   titleTemplate: "%s | Temiloluwa Emmanuel Oluwanifemi",
   description:
-    "Software engineer in Lagos, Nigeria, writing clean full-stack code and building practical AI, fintech and e-commerce products across web, mobile and blockchain.",
+    "Software engineer in Lagos, Nigeria, building reliable full-stack products across AI, fintech, healthcare, and e-commerce. Focused on clean architecture, scalable systems, and shipping end to end.",
   keywords: [
     "Temiloluwa Emmanuel Oluwanifemi",
     "Software Engineer",
-    "Full Stack Developer",
+    "Full Stack Engineer",
     "AI Engineer",
     "React Developer",
     "Next.js Developer",
     "Node.js Developer",
     "TypeScript Developer",
-    "Solidity Developer",
-    "Web Developer Lagos",
+    "Java Developer",
+    "Spring Boot Developer",
+    "Software Engineer Lagos",
     "Nigerian Software Engineer",
   ],
-  ogTitle: "Temiloluwa Emmanuel Oluwanifemi — I build practical software end to end.",
+  ogTitle: "Temiloluwa Emmanuel Oluwanifemi — Software Engineer",
   ogDescription:
-    "Software engineer in Lagos, Nigeria. Full-stack web, AI tools, fintech and blockchain products, from idea to shipped product.",
-  ogImageAlt: "Temiloluwa Emmanuel Oluwanifemi, software engineer — Lagos, Nigeria",
-  twitterTitle: "Temiloluwa Emmanuel Oluwanifemi — I build practical software end to end.",
+    "Software engineer in Lagos, Nigeria. I design, build, and ship full-stack products across AI, fintech, healthcare, and e-commerce.",
+  ogImageAlt:
+    "Temiloluwa Emmanuel Oluwanifemi, software engineer — Lagos, Nigeria",
+  twitterTitle: "Temiloluwa Emmanuel Oluwanifemi — Software Engineer",
   twitterDescription:
-    "Software engineer in Lagos, Nigeria. Full-stack web, AI tools, fintech and blockchain products.",
+    "Software engineer in Lagos, Nigeria. Building full-stack products across AI, fintech, healthcare, and e-commerce.",
   twitterHandle: "@iam_temiloluwa7",
   locale: "en_US",
   themeColor: "white",
@@ -55,7 +57,10 @@ export const SITE = {
   // this record does not drive — update them too: hero.ts terminal status
   // line, faq.ts "getting-started" answer, about.ts closing, and the
   // description/ogDescription/twitterDescription strings above.
-  availability: { available: true, label: "Available for new projects" },
+  availability: {
+    available: true,
+    label: "Open to software engineering opportunities",
+  },
   social: [
     {
       label: "GitHub",
@@ -71,16 +76,16 @@ export const SITE = {
   mainLandmarkLabel: "Main content",
   notFound: {
     title: "Page not found",
-    heading: "That page doesn't exist.",
-    body: "The whole site lives on a single page, so there is not much to get lost in. The link below takes you back to it.",
-    link: { label: "Back to the homepage", href: "/" },
+    heading: "That page doesn’t exist.",
+    body: "This site is a single-page portfolio, so there isn’t much to get lost in. Use the link below to return to the homepage.",
+    link: { label: "Back to homepage", href: "/" },
   },
   errorPage: {
     title: "Something went wrong",
     heading: "Something went wrong.",
-    body: "An unexpected error stopped this page from rendering. Trying again usually fixes it. If it keeps happening, email emmanueltemiloluwa441@yahoo.com and tell me what you were doing.",
+    body: "An unexpected error prevented this page from rendering. Please try again. If the issue persists, email [emmanueltemiloluwa441@yahoo.com](mailto:emmanueltemiloluwa441@yahoo.com) with details about what you were doing.",
     retryLabel: "Try again",
-    link: { label: "Back to the homepage", href: "/" },
+    link: { label: "Back to homepage", href: "/" },
     digestLabel: "Error reference",
   },
 } as const satisfies SiteContent;

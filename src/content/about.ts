@@ -6,29 +6,32 @@ export const ABOUT = {
   header: {
     id: "about",
     eyebrow: "About",
-    heading: "Turning complexity into products people can use.",
+    heading: "Building reliable software for real-world problems.",
   },
   photo: {
     src: portrait,
-    alt: "",
+    alt: "Portrait of Temiloluwa Emmanuel Oluwanifemi, software engineer based in Lagos, Nigeria.",
   },
   paragraphs: [
     [
-      "I've always loved systems and technology — until I found programming, and it clicked. I started at 12, writing basic web pages and JavaScript, and never really stopped. What keeps me hooked is building things with real complexity underneath: scalable applications, and lately, embedded systems for cars, aerospace and anything that has to hold up in the real world.",
+      "I’m a software engineer based in Lagos, Nigeria, focused on building reliable, end-to-end products across AI, fintech, healthcare, and e-commerce. I started programming at 12, building web pages and JavaScript projects, and have been steadily expanding into full-stack systems, product engineering, and applied AI.",
     ],
     [
-      "I care about problem-solving, but more than that, I care about turning complexity into a product an end user can actually pick up and use. That's the part of engineering I chase — not just making something work, but making it make sense to someone who isn't a developer.",
+      "What draws me to engineering is the space between a difficult problem and a product people can actually use. I enjoy designing the underlying systems—data models, APIs, workflows, and interfaces—then shaping them into software that feels simple for the person using it.",
     ],
     [
-      "My focus right now is going deeper into AI and machine learning, and blockchain — not as separate interests but as tools for the same goal: helping build software that makes the world a little safer and a little easier to use.",
+      "I take ownership across the stack. That means building user interfaces, designing backend services, modeling data, integrating third-party systems, and thinking through how a feature behaves in production—not just whether it works locally.",
     ],
     [
-      "I've shipped a handful of projects on my own initiative — a 3D architecture builder for people with no design background, a stock trading platform for African investors, a Telegram-based memecoin signal bot, a hospital appointment system, and an e-commerce storefront where I worked both the front end and the back end.",
+      "My current focus is deepening my expertise in AI and machine learning, with a strong foundation in full-stack web engineering. I’m especially interested in building practical, dependable systems: software that handles real users, real data, and real constraints.",
     ],
     [
-      "When I'm not building, you'll usually find me learning something adjacent — reading about embedded systems, following what's shipping in AI, or poking around on ",
+      "I’ve independently designed and shipped several products, including a 3D architecture and planning tool for African construction professionals, a paper-trading platform for African investors, a real-time collaborative workspace, and a hospital appointment-management system. Each project has strengthened how I approach product decisions, system design, and end-to-end delivery.",
+    ],
+    [
+      "Outside of building, I spend time studying system design, following developments in AI, and exploring adjacent areas such as embedded systems. You can find my work on ",
       { text: "GitHub", href: "https://github.com/darkmonarch123" },
-      " and ",
+      " and my thoughts on ",
       { text: "X", href: "https://x.com/iam_temiloluwa7" },
       ".",
     ],
@@ -37,11 +40,11 @@ export const ABOUT = {
   quickBits: [
     "Started coding at 12",
     "Based in Lagos, Nigeria (WAT)",
-    "Full stack — front end and back end",
-    "Learning AI/ML and blockchain",
-    "Interested in embedded systems",
-    "Ships UI without waiting on a designer",
+    "Full-stack software engineer",
+    "Builds across AI, fintech, healthcare, and e-commerce",
+    "Focused on system design and product engineering",
+    "Comfortable owning features from UI to backend",
   ],
   closing:
-    "One last thing: I'm taking on new work right now. Say hello — I don't bite.",
+    "I’m currently open to software engineering opportunities. If you’re building ambitious products and need an engineer who can own problems end to end, I’d love to talk.",
 } as const satisfies AboutContent;

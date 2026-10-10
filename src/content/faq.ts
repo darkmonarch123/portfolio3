@@ -1,65 +1,63 @@
 import type { FaqContent } from "./types";
 
-// No pricing on purpose: a rate on the page prices the work before the
-// conversation that would justify it.
 export const FAQ = {
   header: {
     id: "faq",
     eyebrow: "FAQ",
-    heading: "Questions people ask before hiring me.",
-    subhead: "Short answers. Anything else, email me.",
+    heading: "Questions people ask.",
+    subhead: "Short answers about my work, stack, and availability.",
   },
   // Every <details> shares this name, so the browser closes one answer when
   // another opens — an accordion with zero JavaScript.
   groupName: "faq",
   items: [
     {
-      id: "how-we-work",
-      question: "How do we work together?",
+      id: "what-i-build",
+      question: "What kind of software do you build?",
       answer:
-        "A short call or message thread to pin down what you actually need, then a plan before I write any code. After that you get working software, not a status update.",
+        "I build full-stack web and mobile products, backend APIs, management systems, and practical AI features. My recent work spans AI, fintech, healthcare, and e-commerce.",
     },
     {
-      id: "engagement-types",
-      question: "What kind of work do you take on?",
+      id: "engineering-focus",
+      question: "What is your engineering focus?",
       answer:
-        "Fixed-scope projects, or joining as an extra pair of hands on an existing product. I'll build the whole thing — front end, back end, and the AI or blockchain pieces if you need them.",
+        "I enjoy owning features end to end: designing the interface, building the API and data model, integrating external services, and thinking through how the feature behaves in production.",
     },
     {
       id: "ai",
       question: "Can you build AI features?",
       answer:
-        "Yes — that's where a lot of my current focus is. Practical AI tools built on real product needs, not AI for its own sake.",
-    },
-    {
-      id: "blockchain",
-      question: "Do you work with blockchain and crypto?",
-      answer:
-        "Yes — I've built Solidity contracts and a live memecoin signal bot monitoring Solana, BSC and Ethereum. Happy to talk through what you're building.",
-    },
-    {
-      id: "design",
-      question: "I don't have a designer. Is that a problem?",
-      answer:
-        "No. I've shipped UI without one before — send a reference or a rough idea and I'll turn it into a clean, consistent interface.",
+        "Yes. I focus on practical AI—prediction systems, sentiment analysis, recommendations, and AI-assisted workflows that solve a clear product problem.",
     },
     {
       id: "stack",
-      question: "What do you build with?",
+      question: "What technologies do you work with?",
       answer:
-        "React, Next.js and TypeScript on the front end. Node.js, Express and PostgreSQL or MongoDB behind it. Python for AI/ML work, and Solidity or Rust for blockchain. If your stack is something else, tell me — I'd rather say it's not a fit than learn on your budget.",
+        "React, Next.js, TypeScript, Node.js, Express, PostgreSQL, and MongoDB on the web side. I also work with Java, Spring Boot, JavaFX, Python, and AI/ML tools such as PyTorch and OpenCV.",
+    },
+    {
+      id: "design",
+      question: "Do you work with designers?",
+      answer:
+        "Yes. I can implement designs from Figma or other design systems, and I’m comfortable building clean, accessible interfaces when a dedicated designer isn’t available.",
+    },
+    {
+      id: "learning",
+      question: "What are you learning next?",
+      answer:
+        "I’m deepening my knowledge of AI/ML, system design, testing, and deployment practices, including Docker, Kubernetes, and CI/CD.",
     },
     {
       id: "timezone",
-      question: "Where are you based, and will our hours overlap?",
+      question: "Where are you based, and will your hours overlap?",
       answer:
-        "Lagos, Nigeria — WAT (UTC+1). That overlaps most of the working day with Europe and Africa, and the morning with the US East Coast. Email or chat day to day, calls when a call is faster.",
+        "I’m based in Lagos, Nigeria (WAT, UTC+1). My hours overlap well with Europe and Africa, and with mornings on the US East Coast.",
     },
     {
       id: "getting-started",
-      question: "Are you free, and how do we start?",
+      question: "Are you open to opportunities?",
       answer:
-        "Yes, I'm taking on new work right now. Email emmanueltemiloluwa441@yahoo.com with what you're building and when you need it — if it's a fit, you get a plan back; if it isn't, I'll say so.",
+        "Yes. I’m open to software engineering roles and selective collaborations. Email [emmanueltemiloluwa441@yahoo.com](mailto:emmanueltemiloluwa441@yahoo.com) with details about the role or project.",
     },
   ],
 } as const satisfies FaqContent;

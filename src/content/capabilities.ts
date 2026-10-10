@@ -5,30 +5,42 @@ import type { CapabilitiesContent } from "./types";
 // lives in src/components/primitives/icon.tsx.
 export const CAPABILITIES = {
   header: {
-    id: "services",
-    eyebrow: "Services",
-    heading: "What you can hand me.",
+    id: "capabilities",
+    eyebrow: "Capabilities",
+    heading: "What I build.",
     subhead:
-      "AI features, a full-stack product, or a blockchain component. All three work.",
+      "Full-stack web and mobile products, backend APIs, and practical AI features.",
   },
   items: [
     {
-      id: "ai",
-      icon: "bot",
-      title: "Practical AI tools",
-      body: "AI features built around a real product need — from signal-scoring engines to assistants — using Python, PyTorch and OpenCV alongside Claude Code and the usual APIs.",
-    },
-    {
-      id: "product",
+      id: "full-stack",
       icon: "layers",
-      title: "The whole product, front to back",
-      body: "React and Next.js on top, Node.js and Express underneath, PostgreSQL or MongoDB holding the data. One person owns both ends, so nothing falls through the gap between them.",
+      title: "Full-stack product development",
+      body: "Building complete web and mobile applications with React, Next.js, TypeScript, Node.js, Spring Boot, and PostgreSQL—from interface to API to database.",
     },
     {
-      id: "design",
-      icon: "pen-tool",
-      title: "Blockchain and beyond",
-      body: "Solidity contracts and Rust when the product needs a chain underneath it — plus the ordinary web app wrapped around it, so the whole thing ships as one product, not two.",
+      id: "backend",
+      icon: "server",
+      title: "Backend APIs and data modeling",
+      body: "Designing REST APIs, business logic, authentication, and database models for products such as trading platforms, management systems, and customer-facing apps.",
+    },
+    {
+      id: "ai-ml",
+      icon: "bot",
+      title: "Applied AI and ML",
+      body: "Building practical AI features, including prediction systems, sentiment analysis, recommendations, and AI-assisted product workflows.",
+    },
+    {
+      id: "java-desktop",
+      icon: "monitor",
+      title: "Java and desktop software",
+      body: "Developing Java applications and JavaFX tools for management systems, internal workflows, and desktop product interfaces.",
+    },
+    {
+      id: "devops",
+      icon: "cloud",
+      title: "Deployment and tooling",
+      body: "Containerizing applications with Docker and learning modern deployment practices, including Kubernetes and CI/CD workflows.",
     },
   ],
 } as const satisfies CapabilitiesContent;
