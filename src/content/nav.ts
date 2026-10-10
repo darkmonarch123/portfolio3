@@ -18,7 +18,7 @@ export const NAV = {
   ],
   cv: {
     label: "Download CV",
-    href: "/files/temiloluwa-oluwanifemi-software-engineer.pdf",
+    href: "/files/Temiloluwa-Oluwanifemi-CV.pdf",
   },
   cta: { label: "Let's talk", href: "#contact" },
   menuOpenLabel: "Open menu",

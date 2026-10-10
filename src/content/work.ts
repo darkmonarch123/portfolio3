@@ -1,10 +1,6 @@
-import f1Shot from "@/assets/images/work/f1-telemetry.png";
-import nairaxShot from "@/assets/images/work/nairax-signal.png";
-import newhopeShot from "@/assets/images/work/newhope-hospital.png";
+import foremanShot from "@/assets/images/work/foreman.png";
 import pinnacleShot from "@/assets/images/work/pinnacle-inc.png";
 import prodesignShot from "@/assets/images/work/prodesign-africa.png";
-import uniccreationsShot from "@/assets/images/work/uniccreations.png";
-import foremanShot from "@/assets/images/work/foreman.png";
 
 import type { WorkContent } from "./types";
 

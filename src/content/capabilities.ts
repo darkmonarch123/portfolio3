@@ -5,7 +5,7 @@ import type { CapabilitiesContent } from "./types";
 // lives in src/components/primitives/icon.tsx.
 export const CAPABILITIES = {
   header: {
-    id: "capabilities",
+    id: "services",
     eyebrow: "Capabilities",
     heading: "What I build.",
     subhead:

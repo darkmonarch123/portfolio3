@@ -1,4 +1,12 @@
-import { Bot, Layers, PenTool, type LucideIcon } from "lucide-react";
+import {
+  Bot,
+  Cloud,
+  Layers,
+  Monitor,
+  PenTool,
+  Server,
+  type LucideIcon,
+} from "lucide-react";
 
 import type { CapabilityIconName } from "@/content/types";
 
@@ -21,5 +29,8 @@ export function Icon({ icon: Glyph, size = "sm" }: IconProps) {
 export const CAPABILITY_ICONS = {
   bot: Bot,
   layers: Layers,
+  server: Server,
+  monitor: Monitor,
+  cloud: Cloud,
   "pen-tool": PenTool,
 } as const satisfies Record<CapabilityIconName, LucideIcon>;
