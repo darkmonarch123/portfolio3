@@ -24,5 +24,6 @@ export const TRUST_BAR = {
       href: "https://github.com/darkmonarch123/uniccreations-style-hub",
     },
     { name: "F1 Telemetry", href: "https://github.com/darkmonarch123" },
+    { name: "Foreman", href: "https://github.com/darkmonarch123/Foreman" }
   ],
 } as const satisfies TrustBarContent;

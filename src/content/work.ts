@@ -4,6 +4,7 @@ import newhopeShot from "@/assets/images/work/newhope-hospital.png";
 import pinnacleShot from "@/assets/images/work/pinnacle-inc.png";
 import prodesignShot from "@/assets/images/work/prodesign-africa.png";
 import uniccreationsShot from "@/assets/images/work/uniccreations.png";
+import foremanShot from "@/assets/images/work/foreman.png";
 
 import type { WorkContent } from "./types";
 
@@ -27,7 +28,7 @@ export const WORK = {
       name: "ProDesign Africa",
       domain: "github.com/darkmonarch123/ProdesignAfrica",
       href: "https://prodesignafrica.vercel.app/",
-      featured: true,
+      featured: false,
       description:
         "A 3D architecture builder for African professionals — CAD tooling built around Nigerian plot standards, ARCON/LASDRI compliance and local material costs, from Lagos to Nairobi.",
       role: "Full stack — the 3D web builder, the compliance-aware plan editor, and the services behind it.",
@@ -87,18 +88,18 @@ export const WORK = {
     //   linkLabel: "View on GitHub",
     // },
     {
-      id: "uniccreations",
-      name: "UNICCREATIONS",
-      domain: "github.com/darkmonarch123/uniccreations-style-hub",
-      href: "https://uniccreations-style-hub.vercel.app/",
-      featured: false,
+      id: :"foreman",
+      name: "Foreman",
+      domain: "github.com/darkmonarch123/Foreman",
+      href: "https://https://foreman-xtor.onrender.com",
+      featured: true,
       description:
-        "A responsive, high-fidelity e-commerce storefront for a Lagos-made women's fashion brand — clean product cards, a full shop and custom-order flow, and a premium minimalist aesthetic across every page.",
+        "Foreman is a real-time collaborative visual workspace for brainstorming, project planning, diagrams, notes and team coordination. People create boards, start from templates, add sticky notes, text, shapes, arrows and drawings, invite collaborators with roles, comment, follow an activity feed and export boards as PNG.",
       role: "Front end and back end — the storefront UI and the store logic behind it.",
-      stack: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+      stack: ["Nextjs", "Tailwind CSS", "Supabase", "Websockets", "TypeScript",],
       screenshot: {
-        src: uniccreationsShot,
-        alt: "UNIC Creations homepage reading 'Be You. Be UNIC.' beside a model in a dark green two-piece crepe set.",
+        src: foremanShot,
+        alt: "Foreman homepage reading 'Collaborate in real-time', beside a visual workspace with sticky notes and drawings.",
       },
       linkLabel: "View live demo",
     },
