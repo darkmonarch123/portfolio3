@@ -88,10 +88,10 @@ export const WORK = {
     //   linkLabel: "View on GitHub",
     // },
     {
-      id: :"foreman",
+      id: "foreman",
       name: "Foreman",
       domain: "github.com/darkmonarch123/Foreman",
-      href: "https://https://foreman-xtor.onrender.com",
+      href: "https://foreman-xtor.onrender.com",
       featured: true,
       description:
         "Foreman is a real-time collaborative visual workspace for brainstorming, project planning, diagrams, notes and team coordination. People create boards, start from templates, add sticky notes, text, shapes, arrows and drawings, invite collaborators with roles, comment, follow an activity feed and export boards as PNG.",
